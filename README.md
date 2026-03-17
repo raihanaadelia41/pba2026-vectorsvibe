@@ -1,4 +1,10 @@
+# NLP Project
+## Klasifikasi Cyberbullying Bahasa Indonesia
 
+### 📌 Deskripsi Project
+Project ini bertujuan untuk melakukan klasifikasi teks dalam Bahasa Indonesia untuk mendeteksi apakah suatu kalimat termasuk cyberbullying atau tidak menggunakan pendekatan Natural Language Processing (NLP). Dalam penelitian ini, akan dilakukan perbandingan performa beberapa algoritma machine learning untuk menentukan model terbaik.
+
+---
 
 ## 👥 Anggota Kelompok
 
@@ -33,13 +39,13 @@ Dataset yang digunakan telah dilengkapi dengan label biner:
 ## 🤖 Model yang Dikembangkan
 
 ### 1. Naive Bayes
-Algoritma probabilistik berbasis Teorema Bayes yang menghitung peluang suatu teks termasuk kelas *Bullying* atau *Non-Bullying* berdasarkan kemunculan kata-kata di dalamnya. Model ini mengasumsikan setiap fitur (kata) bersifat independen satu sama lain. Naive Bayes dipilih karena ringan, cepat dilatih, dan terbukti efektif untuk klasifikasi teks.
+Algoritma probabilistik berbasis Teorema Bayes yang menghitung peluang suatu teks termasuk kelas *Bullying* atau *Non-Bullying* berdasarkan kemunculan kata-kata di dalamnya. Model ini mengasumsikan setiap fitur (kata) bersifat independen satu sama lain. 
 
 ### 2. Logistic Regression
-Algoritma klasifikasi linear yang memodelkan probabilitas kelas menggunakan fungsi sigmoid. Model ini mempelajari bobot setiap fitur kata untuk membedakan teks *bullying* dari yang bukan. Logistic Regression dipilih karena mudah diinterpretasikan, stabil, dan memberikan performa yang baik pada data teks berdimensi tinggi.
+Algoritma klasifikasi linear yang memodelkan probabilitas kelas menggunakan fungsi sigmoid. Model ini mempelajari bobot setiap fitur kata untuk membedakan teks *bullying* dari yang bukan. 
 
 ### 3. Support Vector Machine (SVM)
-Algoritma yang bekerja dengan mencari *hyperplane* optimal untuk memisahkan dua kelas secara maksimal. Pada data teks yang direpresentasikan sebagai vektor TF-IDF berdimensi tinggi, SVM dikenal unggul karena mampu menemukan batas keputusan yang optimal meskipun ruang fiturnya sangat besar.
+Algoritma yang bekerja dengan mencari *hyperplane* optimal untuk memisahkan dua kelas secara maksimal.
 
 ---
 
