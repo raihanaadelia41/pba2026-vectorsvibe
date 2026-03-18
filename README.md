@@ -84,7 +84,7 @@ pba2026-vectorsvibe/
 
 | Checkpoint | Tanggal | Target | Status |
 |------------|---------|--------|--------|
-| Checkpoint 1 | 18 Maret 2026 | Pemilihan dan pelaporan dataset | ✅ |
+| Checkpoint 1 | 18 Maret 2026 | Pemilihan dan pelaporan dataset | Done |
 
 ---
 
