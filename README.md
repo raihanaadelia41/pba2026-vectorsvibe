@@ -2,14 +2,14 @@
 ## Klasifikasi Cyberbullying Bahasa Indonesia
 
 ### 📌 Deskripsi Project
-Project ini bertujuan untuk melakukan klasifikasi teks dalam Bahasa Indonesia untuk mendeteksi apakah suatu kalimat termasuk cyberbullying atau tidak menggunakan pendekatan Natural Language Processing (NLP). Dalam tugas ini, akan dilakukan perbandingan performa beberapa algoritma machine learning untuk menentukan model terbaik.
+Project ini bertujuan untuk melakukan klasifikasi teks dalam Bahasa Indonesia untuk mendeteksi apakah suatu kalimat termasuk cyberbullying atau tidak menggunakan pendekatan Natural Language Processing (NLP). Dalam tugas ini, akan dilakukan perbandingan performa algoritma machine learning dan deep learning untuk menentukan model terbaik.
 
 ---
 
 ## 👥 Anggota Kelompok
 
 | No | Nama | NIM | Akun GitHub |
-|----|------|-----|--------------------|
+|----|------|-----|-------------|
 | 1 | Aisyah Musfirah | 123450084 | aisyahmusfirah |
 | 2 | Anggi Puspita Ningrum | 123450012 | AnggiPuspita012 |
 | 3 | Raihana Adelia Putri | 123450041 | raihanaadelia41 |
@@ -28,38 +28,48 @@ Dataset ini berisi kumpulan teks berbahasa Indonesia yang diklasifikasikan berda
 
 ## 🎯 Deskripsi Repositori
 
-Repositori ini berisi implementasi sistem **deteksi *cyberbullying* berbahasa Indonesia** menggunakan pendekatan *machine learning* klasik berbasis teks. Dalam tugas ini membangun dan membandingkan tiga algoritma klasifikasi untuk menentukan model terbaik dalam mengenali konten perundungan siber pada teks berbahasa Indonesia.
+Repositori ini berisi implementasi sistem **deteksi *cyberbullying* berbahasa Indonesia** menggunakan pendekatan NLP berbasis machine learning dan deep learning. Proyek ini membangun dan membandingkan beberapa algoritma untuk menentukan model terbaik dalam mengenali konten perundungan siber.
 
 Dataset yang digunakan telah dilengkapi dengan label biner:
-- **Bullying** — Teks yang mengandung unsur perundungan siber
-- **Non-Bullying** — Teks yang tidak mengandung unsur perundungan siber
+- **Bullying**
+- **Non-Bullying**
 
 ---
 
 ## 🤖 Model yang Dikembangkan
 
 ### 1. Naive Bayes
-Algoritma klasifikasi probabilistik yang memanfaatkan label biner pada dataset untuk mempelajari peluang suatu teks termasuk ke dalam kelas bullying atau non-bullying. Model ini menggunakan distribusi kata dan mengasumsikan setiap fitur bersifat independen.
+Model probabilistik yang memanfaatkan label biner untuk menghitung peluang teks termasuk kelas *bullying* atau *non-bullying* berdasarkan distribusi kata.
 
 ### 2. Logistic Regression
-Algoritma klasifikasi biner yang memanfaatkan label pada data untuk memodelkan probabilitas suatu teks termasuk ke dalam kelas bullying atau non-bullying. Model ini mempelajari bobot setiap fitur kata untuk membedakan kedua kelas.
+Model klasifikasi biner yang mempelajari bobot fitur untuk memprediksi probabilitas teks termasuk *bullying* atau *non-bullying*.
 
 ### 3. Support Vector Machine (SVM)
-Algoritma klasifikasi yang menggunakan data berlabel biner untuk menemukan batas pemisah (hyperplane) optimal antara kelas bullying dan non-bullying dalam ruang fitur, sehingga mampu memisahkan kedua kelas secara maksimal.
+Model yang mencari batas pemisah optimal untuk membedakan teks *bullying* dan *non-bullying* secara maksimal.
+
+### 4. Bi-LSTM (Bidirectional LSTM)
+Model deep learning yang membaca teks dari dua arah (forward dan backward) sehingga mampu memahami konteks kalimat dengan lebih baik dalam mengklasifikasikan *bullying* dan *non-bullying*.
 
 ---
 
 ## ⚙️ Pipeline Pemrosesan
 
 ```
-Raw Text
-   ↓
-Preprocessing (case folding, tokenisasi, stopword removal, stemming)
-   ↓
-Feature Extraction (TF-IDF)
-   ↓
-Training (Naive Bayes / Logistic Regression / SVM)
-   ↓
+Raw Data
+    ↓
+Preprocessing
+(case folding, cleaning, tokenisasi, stopword removal, stemming)
+    ↓
+Feature Extraction:
+    - TF-IDF            → untuk Naive Bayes, Logistic Regression, & SVM
+    - Embedding Layer   → untuk Bi-LSTM
+    ↓
+Training Model:
+    - Naive Bayes
+    - Logistic Regression
+    - SVM
+    - Bi-LSTM
+    ↓
 Evaluasi & Perbandingan Model
 ```
 
@@ -73,9 +83,12 @@ Evaluasi & Perbandingan Model
 pba2026-vectorsvibe/
 ├── README.md
 ├── data/
-├── notebooks/
-├── src/
-└── reports/
+│   ├── raw/            (dataset asli dari Kaggle)
+│   └── processed/      (data setelah preprocessing)
+├── notebooks/          (file .ipynb Jupyter Notebook)
+├── src/                (kode Python (.py))
+├── models/             (model yang sudah dilatih)
+└── reports/            (laporan dan grafik hasil)
 ```
 
 ---
@@ -87,4 +100,3 @@ pba2026-vectorsvibe/
 | Checkpoint 1 | 18 Maret 2026 | Pemilihan dan pelaporan dataset | Done |
 
 ---
-
