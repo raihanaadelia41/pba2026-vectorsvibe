@@ -39,13 +39,13 @@ Dataset yang digunakan telah dilengkapi dengan label biner:
 ## 🤖 Model yang Dikembangkan
 
 ### 1. Naive Bayes
-Algoritma probabilistik berbasis Teorema Bayes yang menghitung peluang suatu teks termasuk kelas *Bullying* atau *Non-Bullying* berdasarkan kemunculan kata-kata di dalamnya. Model ini mengasumsikan setiap fitur (kata) bersifat independen satu sama lain. 
+Algoritma klasifikasi probabilistik yang memanfaatkan label biner pada dataset untuk mempelajari peluang suatu teks termasuk ke dalam kelas bullying atau non-bullying. Model ini menggunakan distribusi kata dan mengasumsikan setiap fitur bersifat independen.
 
 ### 2. Logistic Regression
-Algoritma klasifikasi linear yang memodelkan probabilitas kelas menggunakan fungsi sigmoid. Model ini mempelajari bobot setiap fitur kata untuk membedakan teks *bullying* dari yang bukan. 
+Algoritma klasifikasi biner yang memanfaatkan label pada data untuk memodelkan probabilitas suatu teks termasuk ke dalam kelas bullying atau non-bullying. Model ini mempelajari bobot setiap fitur kata untuk membedakan kedua kelas.
 
 ### 3. Support Vector Machine (SVM)
-Algoritma yang bekerja dengan mencari *hyperplane* optimal untuk memisahkan dua kelas secara maksimal.
+Algoritma klasifikasi yang menggunakan data berlabel biner untuk menemukan batas pemisah (hyperplane) optimal antara kelas bullying dan non-bullying dalam ruang fitur, sehingga mampu memisahkan kedua kelas secara maksimal.
 
 ---
 
