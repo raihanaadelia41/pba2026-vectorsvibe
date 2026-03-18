@@ -2,17 +2,17 @@
 ## Klasifikasi Cyberbullying Bahasa Indonesia
 
 ### 📌 Deskripsi Project
-Project ini bertujuan untuk melakukan klasifikasi teks dalam Bahasa Indonesia untuk mendeteksi apakah suatu kalimat termasuk cyberbullying atau tidak menggunakan pendekatan Natural Language Processing (NLP). Dalam penelitian ini, akan dilakukan perbandingan performa beberapa algoritma machine learning untuk menentukan model terbaik.
+Project ini bertujuan untuk melakukan klasifikasi teks dalam Bahasa Indonesia untuk mendeteksi apakah suatu kalimat termasuk cyberbullying atau tidak menggunakan pendekatan Natural Language Processing (NLP). Dalam tugas ini, akan dilakukan perbandingan performa beberapa algoritma machine learning untuk menentukan model terbaik.
 
 ---
 
 ## 👥 Anggota Kelompok
 
-| No | Nama | NIM |
-|----|------|-----|
-| 1 | Aisyah Musfirah | 123450084 |
-| 2 | Anggi Puspita Ningrum | 123450012 |
-| 3 | Raihana Adelia Putri | 123450041 |
+| No | Nama | NIM | Akun GitHub |
+|----|------|-----|--------------------|
+| 1 | Aisyah Musfirah | 123450084 | aisyahmusfirah |
+| 2 | Anggi Puspita Ningrum | 123450012 | AnggiPuspita012 |
+| 3 | Raihana Adelia Putri | 123450041 | raihanaadelia41 |
 
 ---
 
@@ -28,7 +28,7 @@ Dataset ini berisi kumpulan teks berbahasa Indonesia yang diklasifikasikan berda
 
 ## 🎯 Deskripsi Repositori
 
-Repositori ini berisi implementasi sistem **deteksi *cyberbullying* berbahasa Indonesia** menggunakan pendekatan *machine learning* klasik berbasis teks. Proyek ini membangun dan membandingkan tiga algoritma klasifikasi untuk menentukan model terbaik dalam mengenali konten perundungan siber pada teks berbahasa Indonesia.
+Repositori ini berisi implementasi sistem **deteksi *cyberbullying* berbahasa Indonesia** menggunakan pendekatan *machine learning* klasik berbasis teks. Dalam tugas ini membangun dan membandingkan tiga algoritma klasifikasi untuk menentukan model terbaik dalam mengenali konten perundungan siber pada teks berbahasa Indonesia.
 
 Dataset yang digunakan telah dilengkapi dengan label biner:
 - **Bullying** — Teks yang mengandung unsur perundungan siber
