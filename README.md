@@ -75,6 +75,9 @@ Evaluasi & Perbandingan Model
 
 **Metrik evaluasi:** Accuracy, Precision, Recall, dan F1-Score
 
+### Deploy Hugging Face
+Link : https://huggingface.co/spaces/aishsahi/prediksi-komen-lagi
+
 ---
 
 ## 📁 Struktur Folder
