@@ -75,8 +75,11 @@ Evaluasi & Perbandingan Model
 
 **Metrik evaluasi:** Accuracy, Precision, Recall, dan F1-Score
 
-### Deploy Hugging Face
+### Deploy Hugging Face [ML Models]
 Link : https://huggingface.co/spaces/aishsahi/prediksi-komen-lagi
+
+### Deploy Hugging Fase [DL Models]
+Link : https://huggingface.co/spaces/raihana41/cyberbully-app
 
 ---
 
