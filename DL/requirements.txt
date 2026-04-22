@@ -1,0 +1,7 @@
+gradio
+torch
+pandas
+numpy
+scikit-learn
+Sastrawi
+nltk
