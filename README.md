@@ -84,6 +84,8 @@ Link : https://huggingface.co/spaces/raihana41/cyberbully-app
 ### Publish ArXiv 
 Link : (https://arxiv.org/abs/2604.26229)
 
+### Lampiran Prompt Pengerjaan
+Link : https://docs.google.com/document/d/1DRiOcvc-zRsBLbyeXzTohn8ghJQ3k4q0GMuHaIfUahg/edit?usp=sharing
 ---
 
 ## 📁 Struktur Folder
