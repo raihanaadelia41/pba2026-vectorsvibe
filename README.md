@@ -81,6 +81,9 @@ Link : https://huggingface.co/spaces/aishsahi/prediksi-komen-lagi
 ### Deploy Hugging Fase [DL Models]
 Link : https://huggingface.co/spaces/raihana41/cyberbully-app
 
+### Publish ArXiv 
+Link : (https://arxiv.org/abs/2604.26229)
+
 ---
 
 ## 📁 Struktur Folder
